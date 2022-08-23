@@ -1,6 +1,7 @@
 <template>
   <div>home</div>
   <div>count: {{ count }}</div>
+  <el-button type="primary">button</el-button>
 </template>
 
 <script setup>
