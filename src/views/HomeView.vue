@@ -8,5 +8,5 @@
 import { useStore } from 'vuex'
 
 const store = useStore()
-const count = store.state.countModule.count
+const { count } = store.state.countModule
 </script>
