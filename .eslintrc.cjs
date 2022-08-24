@@ -30,5 +30,9 @@ module.exports = {
     'vue',
   ],
   rules: {
+    // https://stackoverflow.com/a/44939592/9863318
+    "import/no-extraneous-dependencies": [
+      "error", { 'devDependencies': true },
+    ],
   },
 };
